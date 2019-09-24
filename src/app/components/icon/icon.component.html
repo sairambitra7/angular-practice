@@ -1,0 +1,38 @@
+<div mat-button [matMenuTriggerFor]="menu" style="margin-top:20px;">
+  <mat-icon
+    style="border-radius: 50%;box-shadow: 2px 5px 20px 0 rgba(0,0,0,.5); cursor: pointer;"
+    >person</mat-icon
+  >
+</div>
+<mat-menu #menu="matMenu" style="width: 230px;">
+  <!-- <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button> -->
+  <div class="row" style="padding: 12px 13px 0px 21px;">
+    <div class="col-md-3">
+      <!-- <mat-icon
+        style="border-radius: 50%;box-shadow: 2px 5px 20px 0 rgba(0,0,0,.5); cursor: pointer;"
+        >person</mat-icon
+      > -->
+      <h4>UG</h4>
+    </div>
+    <div class="col-md-9">
+      <p style="font-size: 12px;margin: 4px 0px;">Ramana Uday</p>
+      <p style="font-size: 12px;color: #545454;">ramana@gmail.com</p>
+    </div>
+  </div>
+  <mat-divider style="margin: 0px 24px 10px 21px;"></mat-divider>
+  <div class="row">
+    <!-- <div class="col-md-12"> -->
+    <ul>
+      <li>Purchase History</li>
+      <li>User Profile</li>
+      <li>Contact Us</li>
+      <li>Log out</li>
+    </ul>
+    <!-- <p style="font-size: 12px;">Ramana Uday</p>
+      <p style="font-size: 12px;">Ramana Uday</p>
+      <p style="font-size: 12px;">Ramana Uday</p>
+      <p style="font-size: 12px;">Ramana Uday</p> -->
+    <!-- </div> -->
+  </div>
+</mat-menu>

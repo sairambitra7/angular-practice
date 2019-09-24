@@ -1,0 +1,21 @@
+::ng-deep .mat-menu-content {
+  width: auto;
+  overflow: hidden;
+}
+
+li {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+h4 {
+  border: 1px solid #1f1e1e;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  padding-top: 8px;
+  background-color: #818488;
+}
