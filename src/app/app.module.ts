@@ -36,9 +36,10 @@ import { MatButtonToggleModule } from "@angular/material/button-toggle";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { IconComponent } from "./components/icon/icon.component";
+import { ModalpopUpComponent } from "./components/modalpop-up/modalpop-up.component";
 
 @NgModule({
-  declarations: [AppComponent, IconComponent],
+  declarations: [AppComponent, IconComponent, ModalpopUpComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -73,6 +74,7 @@ import { IconComponent } from "./components/icon/icon.component";
     MatStepperModule,
     MatButtonToggleModule
   ],
+  entryComponents: [ModalpopUpComponent],
 
   providers: [],
   bootstrap: [AppComponent]
